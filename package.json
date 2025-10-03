@@ -21,7 +21,7 @@
   "author": "Andrew Plummer",
   "license": "MIT",
   "devDependencies": {
-    "@tsconfig/node16-strictest-esm": "^1.0.0",
+    "@tsconfig/strictest": "^2.0.0",
     "@types/adm-zip": "^0.4.34",
     "@types/jest": "27.4.0",
     "@types/node": "^16.11.25",
