@@ -26,4 +26,7 @@ module.exports = {
             lines: 88,
         }
     },
+    moduleNameMapper: {
+      "^axios$": "axios/dist/node/axios.cjs"
+    }
 }
