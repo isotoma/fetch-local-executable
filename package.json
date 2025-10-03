@@ -37,7 +37,7 @@
     "auto-changelog": "2.0.0",
     "axios-mock-adapter": "1.19.0",
     "axios-old": "npm:axios@0.11.0",
-    "eslint": "7.26.0",
+    "eslint": "9.36.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
     "jest": "27.4.7",
