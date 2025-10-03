@@ -1,11 +1,11 @@
 {
-  "name": "fetch-executable",
+  "name": "fetch-local-executable",
   "version": "0.17.1",
   "description": "Fetch an executable, but only if needed",
-  "homepage": "https://github.com/plumdog/fetch-executable",
+  "homepage": "https://github.com/isotoma/fetch-local-executable",
   "repository": {
     "type": "git",
-    "url": "github:plumdog/fetch-executable"
+    "url": "github:isotoma/fetch-local-executable"
   },
   "scripts": {
     "build": "rm -rf build/ && npm run -- tsc --project ./tsconfig.dist.json --noEmitOnError --outDir ./build && cp package.json package-lock.json README.md ./build/ && (cd ./build && npm ci --only=production)",
@@ -18,7 +18,7 @@
     "lint-check": "npm run -- _lint --max-warnings 0",
     "tsc": "tsc"
   },
-  "author": "",
+  "author": "Andrew Plummer",
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/node16-strictest-esm": "^1.0.0",
