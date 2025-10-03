@@ -9,5 +9,8 @@
     "moduleResolution": "node"
   },
   "exclude": ["build/**/*", "coverage/**/*"],
-  "extends": "@tsconfig/strictest"
+  "extends": "@tsconfig/strictest",
+  "paths": {
+    "*": ["node_modules/@types/*", "types/*"]
+  }
 }
