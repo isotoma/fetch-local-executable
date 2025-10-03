@@ -18,7 +18,7 @@ describe('httpbin', () => {
 
         await fetchExecutable({
             target: pathlib.join(dir.name, 'testexc'),
-            url: `https://httpbin.org/base64/${base64encode(sampleExecutableFileContent)}`,
+            url: `https://httpbin.dev/base64/${base64encode(sampleExecutableFileContent)}`,
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             execIsOk: async (filepath: string): Promise<boolean> => fs.existsSync(filepath),
         });
