@@ -33,7 +33,7 @@
     "@types/unzip-stream": "^0.3.1",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
-    "adm-zip": "^0.5.9",
+    "adm-zip": "^0.5.16",
     "auto-changelog": "2.0.0",
     "axios-mock-adapter": "1.19.0",
     "axios-old": "npm:axios@0.11.0",
